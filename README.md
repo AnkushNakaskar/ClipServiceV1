@@ -37,8 +37,8 @@ To check the Istio with GCP kubernates
           * Check for API response from Safari ,It should be always “Version 1”
           * From other ,it should be version 2
     * Projects are checked in as 
-        * ClipServiceV1 :
-        * ClipServiceV2:
+        * ClipServiceV1 :https://github.com/AnkushNakaskar/ClipServiceV1
+        * ClipServiceV2:https://github.com/AnkushNakaskar/ClipServiceV2
     * More info Refer to : https://github.com/redhat-developer-demos/istio-tutorial
 
 ~~~~__~~~~
