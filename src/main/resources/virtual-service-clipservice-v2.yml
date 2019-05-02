@@ -1,0 +1,14 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: clipservice
+spec:
+  hosts:
+    - clipservice
+  http:
+    - route:
+        - destination:
+            host: clipservice
+            subset: version-v2
+          weight: 100
+---
