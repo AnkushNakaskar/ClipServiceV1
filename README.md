@@ -4,7 +4,7 @@ To check the Istio with GCP kubernates
 
 # Docker image on GCP  #
    * Create docker image first
-      * run CMD : docker image build -t gcr.io/<projectId>/clipservicev1 .
+      * run CMD : docker image build -t gcr.io/GCPprojectId/clipservicev1 .
       * docker push <imageName>
 
 
